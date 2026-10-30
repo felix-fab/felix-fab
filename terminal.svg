@@ -6,44 +6,36 @@
   <circle cx="81" cy="32" r="7" fill="#27c93f"/>
   <text x="400" y="38" text-anchor="middle" font-family="monospace" font-size="14" fill="#8b949e">felix@kali — root</text>
 
-  <!-- Blinking cursor at end -->
-  <text x="380" y="205" font-family="monospace" font-size="16" fill="#00e676">▌
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </text>
+  <!-- Static cursor -->
+  <text x="380" y="205" font-family="monospace" font-size="16" fill="#00e676">▌</text>
 
   <!-- Command 1 -->
   <g font-family="monospace" font-size="16">
     <text x="35" y="80" fill="#00e676">$</text>
     <text x="55" y="80" fill="#FFB347">nmap -sV -p- target.com</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.08;1" dur="7s" repeatCount="indefinite"/>
   </g>
 
   <!-- Output 1 -->
   <g font-family="monospace" font-size="16">
     <text x="35" y="105" fill="#8b949e">Starting Nmap ... scanning 65535 ports</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.15;1" dur="7s" begin="0.5s" repeatCount="indefinite"/>
   </g>
 
   <!-- Output 2 -->
   <g font-family="monospace" font-size="16">
     <text x="35" y="130" fill="#FF6A00">✔ Port 22/tcp  open  ssh</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.22;1" dur="7s" begin="0.9s" repeatCount="indefinite"/>
   </g>
   <g font-family="monospace" font-size="16">
     <text x="35" y="152" fill="#FF6A00">✔ Port 80/tcp  open  http</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.28;1" dur="7s" begin="1.3s" repeatCount="indefinite"/>
   </g>
 
   <!-- Command 2 -->
   <g font-family="monospace" font-size="16">
     <text x="35" y="178" fill="#00e676">$</text>
     <text x="55" y="178" fill="#FFB347">python3 exploit.py --target 192.168.1.10</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.5;1" dur="7s" begin="1.8s" repeatCount="indefinite"/>
   </g>
 
   <!-- Exploit success -->
   <g font-family="monospace" font-size="16">
     <text x="35" y="205" fill="#FF6A00">✔ Exploit completed. Access granted!</text>
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.6;1" dur="7s" begin="2.4s" repeatCount="indefinite"/>
   </g>
 </svg>

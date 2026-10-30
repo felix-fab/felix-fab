@@ -1,17 +1,17 @@
 <div align="center">
 
 <!-- Animierter Matrix-Regen (externes SVG, SMIL-Animation) -->
-<img src="./matrix-rain.svg?v=3" alt="Felix Matrix Banner" width="920" />
+<img src="./matrix-rain.svg?v=4" alt="Felix Matrix Banner" width="920" />
 
 <br/>
 
 <!-- Animiertes Terminal (externes SVG, SMIL-Animation) -->
-<img src="./terminal.svg?v=2" alt="Hacking Terminal" width="760" />
+<img src="./terminal.svg?v=3" alt="Hacking Terminal" width="760" />
 
 <br/>
 
 <!-- Animierter Code-Editor (externes SVG, SMIL-Animation) -->
-<img src="./code-editor.svg?v=2" alt="Code Editor" width="760" />
+<img src="./code-editor.svg?v=3" alt="Code Editor" width="760" />
 
 </div>
 
