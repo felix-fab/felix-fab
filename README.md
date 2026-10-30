@@ -1,16 +1,16 @@
 <div align="center">
 
 <!-- ============================================================
-     HEADER - Name + Rollen + animiertes Matrix-Banner
+     HEADER - Terminal-Titel + Rollen
 ============================================================ -->
 
-# ✨ Felix
+<img src="./title.svg?v=1" alt="Felix - Software Developer & Pentester" width="920" />
 
-## 🛠️ Software Developer · 🔓 Pentester
+<br/>
+<br/>
 
-<a href="https://github.com/felix-fab">
-  <img src="./matrix-rain.svg?v=6" alt="Matrix Animation" width="920" />
-</a>
+<!-- Erster Effekt: Matrix-Regen -->
+<img src="./matrix-rain.svg?v=6" alt="Matrix Animation" width="920" />
 
 <br/>
 <br/>
