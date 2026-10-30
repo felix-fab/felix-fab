@@ -1,155 +1,87 @@
 <div align="center">
 
-<!-- ============================================================
-     ANIMIERTER BANNER – Matrix/Typing-Effekt
-     GitHub rendert animierte SVGs nativ.
-============================================================ -->
+<!-- ANIMIERTER TYPING-BANNER (einziger dynamischer Effekt, gut lesbar) -->
 <a href="https://github.com/felix-fab">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=2000&pause=500&color=00FF41&center=true&vCenter=true&width=600&lines=%3E+HI%2C+ICH+BIN+FELIX;%3E+PENETRATION+TESTER;%3E+SECURITY+RESEARCHER;%3E+CTF+PLAYER" alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=34&duration=2200&pause=600&color=00FF66&center=true&vCenter=true&width=620&lines=%3E+Hi%2C+ich+bin+Felix;%3E+Cyber+Security+%2F+Pentesting;%3E+Linux+%26+Web-Security;%3E+Ethical+Hacker" alt="Typing Banner" />
 </a>
-
-<!-- ============================================================
-     ASCII-ART TERMINAL – Matrix-Style
-============================================================ -->
-<pre align="center" style="font-family: monospace; color: #00FF41;">
-┌─────────────────────────────────────────────────────┐
-│  ███████╗███████╗██╗     ██╗██╗  ██╗                  │
-│  ██╔════╝██╔════╝██║     ██║╚██╗██╔╝                  │
-│  █████╗  █████╗  ██║     ██║ ╚███╔╝                   │
-│  ██╔══╝  ██╔══╝  ██║     ██║ ██╔██╗                   │
-│  ██║     ███████╗███████╗██║██╔╝ ██╗                  │
-│  ╚═╝     ╚══════╝╚══════╝╚═╝╚═╝  ╚═╝                  │
-│                                                     │
-│  > SECURITY_LEVEL: ██████████░ [MAXIMUM]              │
-│  > STATUS:        ONLINE // ACCESS_GRANTED            │
-│  > NODE:          felix-fab @ github                  │
-└─────────────────────────────────────────────────────┘
-</pre>
-
-<!-- ============================================================
-     PULSIERENDER STATUS – CSS-Animation (GitHub rendert diese)
-============================================================ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=1000&pause=50&color=00FF41&center=true&vCenter=true&width=700&lines=%3E+ACCESS+GRANTED...+WILLKOMMEN+IN+MEINEM+TERMINAL+%F0%9F%91%8B;%3E+DIESE+SEITE+IST+DURCH+%22KURATIEREN%22+GESCH%C3%9CTZT;%3E+EINDRINGLINGE+WERDEN+GEPACKT+UND+GEHACKT+ZUR%C3%9CCKGESCHICKT" alt="Status" />
 
 </div>
 
-<!-- ============================================================
-     ÜBER MICH
-============================================================ -->
+<!-- ================= ÜBER MICH ================= -->
 ## 🧑‍💻 Über mich
 
-> Ich bin **Felix** – ein leidenschaftlicher **Hacker & Cyber-Security-Enthusiast** aus dem digitalen Untergrund.
-> Ich liebe es, Systeme zu analysieren, Schwachstellen aufzuspüren und Sicherheitslücken zu schließen, bevor andere sie ausnutzen.
+Hallo! Ich bin **Felix** – Cyber-Security-Enthusiast mit Fokus auf **Penetration Testing**, **Web-Security** und **Linux**. Ich analysiere Systeme, finde Schwachstellen und baue Tools, um digitale Umgebungen sicherer zu machen.
 
 ```bash
 $ whoami
-> felix-fab
+felix-fab — Security Researcher & Ethical Hacker
+
 $ cat mission.txt
-> Explore. Exploit. Educate.
-$ ./motivation --run
-> "Sicherheit ist kein Produkt, sondern ein Prozess."
+Sicherheit ist kein Produkt, sondern ein Prozess.
 ```
-
-<!-- ============================================================
-     TOOLKIT – MEIN ARSENAL
-============================================================ -->
-## 🛠️ Mein Arsenal
-
-| Bereich | Tech |
-|---------|------|
-| 🐍 **Scripting** | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
-| 🐧 **Pentesting-OS** | ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white) |
-| 🌐 **Web-Security** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) |
-
-### ⚙️ Tools & Fähigkeiten
-
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Nmap](https://img.shields.io/badge/Nmap-0C0C0C?style=for-the-badge&logo=git&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-<!-- ============================================================
-     ANIMIERTE AKTIVITÄT – GITHUB STATS (dynamisch, live)
-============================================================ -->
-## 📊 Aktivität
-
-<div align="center">
-
-<a href="https://github.com/felix-fab">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=felix-fab&show_icons=true&theme=radical&hide_border=true&title_color=00FF41&icon_color=00FF41&text_color=9f9f9f&bg_color=0d1117" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=felix-fab&layout=compact&theme=radical&hide_border=true&title_color=00FF41&icon_color=00FF41&text_color=9f9f9f&bg_color=0d1117" />
-</a>
-
-<br/>
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=felix-fab&theme=radical&hide_border=true&background=0d1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" alt="Streak Stats" />
-
-</div>
-
-<!-- ============================================================
-     TROPHY ROOM
-============================================================ -->
-## 🏆 Trophy Room
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=felix-fab&theme=matrix&no-frame=true&column=4&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
-<!-- ============================================================
-     AKTIVITÄTS-GRAF (dynamisch)
-============================================================ -->
-<div align="center">
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=felix-fab&theme=react-dark&bg_color=0d1117&hide_border=true&color=00FF41&line=00FF41&point=ffffff&area=true&hide_title=true)
-
-</div>
-
-<!-- ============================================================
-     PROFILE VIEWS + BESUCHER-ZÄHLER (dynamisch animiert)
-============================================================ -->
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=felix-fab&color=00FF41&style=flat-square&label=BESUCHER" alt="Profile Views" />
-<img src="https://img.shields.io/badge/SECURITY%20CLEARANCE-LEVEL%205-00FF41?style=for-the-badge&labelColor=0d1117" alt="Clearance" />
-
-</div>
-
-<!-- ============================================================
-     KONTAKT / SOCIALS
-============================================================ -->
-## 📡 Kontakt
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/felix-fab)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deine@email.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/DEIN-PROFIL)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/DEIN-HANDLE)
 
 ---
 
+<!-- ================= MEIN STACK ================= -->
+## 🛠️ Mein Stack
+
+| Bereich | Technologien |
+|---------|--------------|
+| 🐍 Scripting | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) |
+| 🐧 Pentesting-OS | ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kalilinux&logoColor=white) |
+| 🌐 Web-Security | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) |
+| ⚙️ Tools | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![Nmap](https://img.shields.io/badge/Nmap-0E8388?style=flat&logo=nmap&logoColor=white) |
+
+---
+
+<!-- ================= ZERTIFIKATE ================= -->
+## 🎓 Zertifikate
+
+<div align="center">
+
+| | | |
+|---|---|---|
+| <img src="https://img.shields.io/badge/CEH-Certified%20Ethical%20Hacker-00FF66?style=for-the-badge&logo=lock&logoColor=white" /><br/>*EC-Council* · 2025 | <img src="https://img.shields.io/badge/eJPT-Junior%20Penetration%20Tester-00FF66?style=for-the-badge&logo=lock&logoColor=white" /><br/>*INE Security* · 2024 | <img src="https://img.shields.io/badge/OSCP-Offensive%20Security%20Certified-00FF66?style=for-the-badge&logo=lock&logoColor=white" /><br/>*Offensive Security* · 2026 |
+| <img src="https://img.shields.io/badge/CompTIA%20Security%2B-00FF66?style=for-the-badge&logo=shield&logoColor=white" /><br/>*CompTIA* · 2024 | <img src="https://img.shields.io/badge/CCNA-Cisco%20Certified-00FF66?style=for-the-badge&logo=cisco&logoColor=white" /><br/>*Cisco* · 2023 | <img src="https://img.shields.io/badge/AWS%20Security-Specialty-00FF66?style=for-the-badge&logo=amazonaws&logoColor=white" /><br/>*AWS* · 2025 |
+
+</div>
+
+> 📌 *Hinweis: Das sind Beispiel-Zertifikate. Ersetze sie gerne durch deine echten – ich helfe dir beim Eintragen!*
+
+---
+
+<!-- ================= KONTAKT ================= -->
+## 📡 Kontakt & Accounts
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-felix--fab-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/felix-fab)
+[![Email](https://img.shields.io/badge/Email-felix%40example.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:felix@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Felix-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felix)
+[![X / Twitter](https://img.shields.io/badge/X-%40felix-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/felix)
+[![Discord](https://img.shields.io/badge/Discord-felix-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/felix)
+[![Website](https://img.shields.io/badge/Website-felix.dev-00FF66?style=for-the-badge&logo=vercel&logoColor=white)](https://felix.dev)
+
+</div>
+
+> ✉️ Offen für **Security-Projekte**, **Bug-Bounty**-Einladungen und spannende **Kooperationen** – schreib mir einfach!
+
+---
+
+<!-- ================= ASCII-TERMINAL ================= -->
 <div align="center">
 
 ```
-.________________________________________________________________.
-|  .____    .____   .__    ___________________  ________________  |
-|  |    |   |    |  |  |   \__    ___/\_____  \ \__    ___/  _  \ |
-|  |    |   |    |  |  |     |    |    /   |   \  |    |  /  /_\  \|
-|  |    |___|    |  |  |__   |    |   /    |    \ |    | /    |    \|
-|  |_______ \_______|____/   |____|   \_______  / |____| \____|__  /|
-|          \/                              \/                \/   |
-'-----------------------------------------------------------------'
+   _____ _____ _   _ _____  ______   _____    _    ____  
+  |  ___| ____| \ | |_   _| |  _ \ \ / / _ \  / \  | __ ) 
+  | |_  |  _| |  \| | | |   | |_) \ V / | | |/ _ \ |  _ \ 
+  |  _| | |___| |\  | | |   |  _ < | || |_| / ___ \| |_) |
+  |_|   |_____|_| \_| |_|   |_| \_\|_|\___/_/   \_\____/ 
+
 ```
 
-> 🛡️ *"Die beste Verteidigung ist eine gute Offensive. Bleib sicher da draußen."*
+> 🛡️ *"Die beste Verteidigung ist eine gute Offensive."*
 
-**© 2026 Felix – All Rights Reserved. Unbefugter Zugriff wird strafrechtlich verfolgt... 😉**
+**© 2026 Felix · felix-fab**
 
 </div>
