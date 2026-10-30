@@ -18,16 +18,11 @@
 <br/>
 
 <!-- ============================================================
-     STACK + SKILLS – animierte Panels & Skill-Bars (SMIL-SVG)
+     SKILLS – animierte Skill-Bars (SMIL-SVG)
 ============================================================ -->
 <div align="center">
 
-<!-- Animierte Stack-Panels (Dev & Hacking) mit pulsierenden Tech-Tags -->
-<img src="./stack.svg" alt="Dev & Hacking Stack" width="920" />
-
-<br/>
-
-<!-- Animierte Skill-Bars (Fortschrittsbalken füllen sich) -->
+<!-- Animierte Skill-Bars (Fortschrittsbalken füllen sich einmal) -->
 <img src="./skills.svg" alt="Skills" width="920" />
 
 </div>

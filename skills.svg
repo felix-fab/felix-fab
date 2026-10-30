@@ -1,81 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520">
   <!-- Background -->
-  <rect width="920" height="430" fill="#0d1117"/>
+  <rect width="920" height="520" fill="#0d1117"/>
+
+  <defs>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6A00"/>
+      <stop offset="100%" stop-color="#FFB347"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
 
   <!-- Title -->
-  <text x="460" y="45" text-anchor="middle" font-family="monospace" font-size="26" font-weight="bold" fill="#FF6A00">📊 SKILLS</text>
+  <text x="460" y="48" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#FF6A00">⚡ SKILLS</text>
+  <text x="460" y="70" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b949e">▸ compiling skill matrix ...</text>
 
-  <!-- ============ DEV SKILLS (left column) ============ -->
-  <text x="70" y="85" font-family="monospace" font-size="18" font-weight="bold" fill="#FFB347">DEV</text>
+  <!-- ============ CODING PANEL ============ -->
+  <rect x="30" y="95" width="270" height="185" rx="14" fill="url(#panelGrad)" stroke="#FF6A00" stroke-width="1.5"/>
+  <text x="50" y="125" font-family="monospace" font-size="16" font-weight="bold" fill="#FFB347">CODING</text>
+  <text x="50" y="143" font-family="monospace" font-size="11" fill="#8b949e">development</text>
 
-  <!-- Python 90% -->
-  <text x="70" y="120" font-family="monospace" font-size="14" fill="#c9d1d9">Python</text>
-  <rect x="70" y="130" width="380" height="18" rx="9" fill="#21262d"/>
-  <rect x="70" y="130" width="342" height="18" rx="9" fill="#FF6A00">
-    <animate attributeName="width" values="0;342" dur="1.6s" fill="freeze"/>
+  <!-- Python 90 -->
+  <text x="50" y="168" font-family="monospace" font-size="12" fill="#c9d1d9">Python</text>
+  <text x="280" y="168" text-anchor="end" font-family="monospace" font-size="11" fill="#FFA500">90</text>
+  <rect x="50" y="175" width="230" height="10" rx="5" fill="#21262d"/>
+  <rect x="50" y="175" width="207" height="10" rx="5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;207" dur="1.4s" fill="freeze"/>
   </rect>
-  <text x="415" y="145" text-anchor="end" font-family="monospace" font-size="13" fill="#FF6A00">90%</text>
 
-  <!-- JavaScript/TypeScript 85% -->
-  <text x="70" y="175" font-family="monospace" font-size="14" fill="#c9d1d9">JavaScript / TypeScript</text>
-  <rect x="70" y="185" width="380" height="18" rx="9" fill="#21262d"/>
-  <rect x="70" y="185" width="323" height="18" rx="9" fill="#FF7A00">
-    <animate attributeName="width" values="0;323" dur="1.6s" begin="0.2s" fill="freeze"/>
+  <!-- JS/TS 85 -->
+  <text x="50" y="208" font-family="monospace" font-size="12" fill="#c9d1d9">JS / TypeScript</text>
+  <text x="280" y="208" text-anchor="end" font-family="monospace" font-size="11" fill="#FFA500">85</text>
+  <rect x="50" y="215" width="230" height="10" rx="5" fill="#21262d"/>
+  <rect x="50" y="215" width="196" height="10" rx="5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;196" dur="1.4s" begin="0.2s" fill="freeze"/>
   </rect>
-  <text x="415" y="200" text-anchor="end" font-family="monospace" font-size="13" fill="#FF7A00">85%</text>
 
-  <!-- Node.js 80% -->
-  <text x="70" y="230" font-family="monospace" font-size="14" fill="#c9d1d9">Node.js</text>
-  <rect x="70" y="240" width="380" height="18" rx="9" fill="#21262d"/>
-  <rect x="70" y="240" width="304" height="18" rx="9" fill="#FF8C00">
-    <animate attributeName="width" values="0;304" dur="1.6s" begin="0.4s" fill="freeze"/>
+  <!-- Node 80 -->
+  <text x="50" y="248" font-family="monospace" font-size="12" fill="#c9d1d9">Node.js</text>
+  <text x="280" y="248" text-anchor="end" font-family="monospace" font-size="11" fill="#FFA500">80</text>
+  <rect x="50" y="255" width="230" height="10" rx="5" fill="#21262d"/>
+  <rect x="50" y="255" width="184" height="10" rx="5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;184" dur="1.4s" begin="0.4s" fill="freeze"/>
   </rect>
-  <text x="415" y="255" text-anchor="end" font-family="monospace" font-size="13" fill="#FF8C00">80%</text>
 
-  <!-- Git/Docker 78% -->
-  <text x="70" y="285" font-family="monospace" font-size="14" fill="#c9d1d9">Git / Docker</text>
-  <rect x="70" y="295" width="380" height="18" rx="9" fill="#21262d"/>
-  <rect x="70" y="295" width="296" height="18" rx="9" fill="#FFA500">
-    <animate attributeName="width" values="0;296" dur="1.6s" begin="0.6s" fill="freeze"/>
+  <!-- ============ PENTESTING PANEL ============ -->
+  <rect x="325" y="95" width="270" height="185" rx="14" fill="url(#panelGrad)" stroke="#FF6A00" stroke-width="1.5"/>
+  <text x="345" y="125" font-family="monospace" font-size="16" font-weight="bold" fill="#FFB347">PENTESTING</text>
+  <text x="345" y="143" font-family="monospace" font-size="11" fill="#8b949e">offensive security</text>
+
+  <!-- Kali 95 -->
+  <text x="345" y="168" font-family="monospace" font-size="12" fill="#c9d1d9">Kali Linux</text>
+  <text x="575" y="168" text-anchor="end" font-family="monospace" font-size="11" fill="#FFA500">95</text>
+  <rect x="345" y="175" width="230" height="10" rx="5" fill="#21262d"/>
+  <rect x="345" y="175" width="219" height="10" rx="5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;219" dur="1.4s" begin="0.1s" fill="freeze"/>
   </rect>
-  <text x="415" y="310" text-anchor="end" font-family="monospace" font-size="13" fill="#FFA500">78%</text>
 
-  <!-- ============ PENTESTING SKILLS (right column) ============ -->
-  <text x="520" y="85" font-family="monospace" font-size="18" font-weight="bold" fill="#FFB347">PENTESTING</text>
-
-  <!-- Kali Linux 95% -->
-  <text x="520" y="120" font-family="monospace" font-size="14" fill="#c9d1d9">Kali Linux</text>
-  <rect x="520" y="130" width="330" height="18" rx="9" fill="#21262d"/>
-  <rect x="520" y="130" width="314" height="18" rx="9" fill="#FF6A00">
-    <animate attributeName="width" values="0;314" dur="1.6s" begin="0.1s" fill="freeze"/>
+  <!-- Recon 90 -->
+  <text x="345" y="208" font-family="monospace" font-size="12" fill="#c9d1d9">Recon &amp; Scanning</text>
+  <text x="575" y="208" text-anchor="end" font-family="monospace" font-size="11" fill="#FFA500">90</text>
+  <rect x="345" y="215" width="230" height="10" rx="5" fill="#21262d"/>
+  <rect x="345" y="215" width="207" height="10" rx="5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;207" dur="1.4s" begin="0.3s" fill="freeze"/>
   </rect>
-  <text x="815" y="145" text-anchor="end" font-family="monospace" font-size="13" fill="#FF6A00">95%</text>
 
-  <!-- Recon & Scanning 90% -->
-  <text x="520" y="175" font-family="monospace" font-size="14" fill="#c9d1d9">Recon &amp; Scanning</text>
-  <rect x="520" y="185" width="330" height="18" rx="9" fill="#21262d"/>
-  <rect x="520" y="185" width="297" height="18" rx="9" fill="#FF7A00">
-    <animate attributeName="width" values="0;297" dur="1.6s" begin="0.3s" fill="freeze"/>
+  <!-- Exploit 85 -->
+  <text x="345" y="248" font-family="monospace" font-size="12" fill="#c9d1d9">Exploit Development</text>
+  <text x="575" y="248" text-anchor="end" font-family="monospace" font-size="11" fill="#FFA500">85</text>
+  <rect x="345" y="255" width="230" height="10" rx="5" fill="#21262d"/>
+  <rect x="345" y="255" width="196" height="10" rx="5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;196" dur="1.4s" begin="0.5s" fill="freeze"/>
   </rect>
-  <text x="815" y="200" text-anchor="end" font-family="monospace" font-size="13" fill="#FF7A00">90%</text>
 
-  <!-- Exploit Development 85% -->
-  <text x="520" y="230" font-family="monospace" font-size="14" fill="#c9d1d9">Exploit Development</text>
-  <rect x="520" y="240" width="330" height="18" rx="9" fill="#21262d"/>
-  <rect x="520" y="240" width="281" height="18" rx="9" fill="#FF8C00">
-    <animate attributeName="width" values="0;281" dur="1.6s" begin="0.5s" fill="freeze"/>
+  <!-- ============ WEB / SYSTEMS PANEL ============ -->
+  <rect x="620" y="95" width="270" height="185" rx="14" fill="url(#panelGrad)" stroke="#FF6A00" stroke-width="1.5"/>
+  <text x="640" y="125" font-family="monospace" font-size="16" font-weight="bold" fill="#FFB347">WEB &amp; SYS</text>
+  <text x="640" y="143" font-family="monospace" font-size="11" fill="#8b949e">web · systems</text>
+
+  <!-- Web Exploitation 80 -->
+  <text x="640" y="168" font-family="monospace" font-size="12" fill="#c9d1d9">Web Exploitation</text>
+  <text x="870" y="168" text-anchor="end" font-family="monospace" font-size="11" fill="#FFA500">80</text>
+  <rect x="640" y="175" width="230" height="10" rx="5" fill="#21262d"/>
+  <rect x="640" y="175" width="184" height="10" rx="5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;184" dur="1.4s" begin="0.2s" fill="freeze"/>
   </rect>
-  <text x="815" y="255" text-anchor="end" font-family="monospace" font-size="13" fill="#FF8C00">85%</text>
 
-  <!-- Web Exploitation 80% -->
-  <text x="520" y="285" font-family="monospace" font-size="14" fill="#c9d1d9">Web Exploitation</text>
-  <rect x="520" y="295" width="330" height="18" rx="9" fill="#21262d"/>
-  <rect x="520" y="295" width="264" height="18" rx="9" fill="#FFA500">
-    <animate attributeName="width" values="0;264" dur="1.6s" begin="0.7s" fill="freeze"/>
+  <!-- Git/Docker 78 -->
+  <text x="640" y="208" font-family="monospace" font-size="12" fill="#c9d1d9">Git / Docker</text>
+  <text x="870" y="208" text-anchor="end" font-family="monospace" font-size="11" fill="#FFA500">78</text>
+  <rect x="640" y="215" width="230" height="10" rx="5" fill="#21262d"/>
+  <rect x="640" y="215" width="179" height="10" rx="5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;179" dur="1.4s" begin="0.4s" fill="freeze"/>
   </rect>
-  <text x="815" y="310" text-anchor="end" font-family="monospace" font-size="13" fill="#FFA500">80%</text>
 
-  <!-- Status line (statisch, kein Blinken) -->
-  <text x="460" y="390" text-anchor="middle" font-family="monospace" font-size="14" fill="#8b949e">▸ skills initialized ... all systems nominal</text>
-  <text x="920" y="390" font-family="monospace" font-size="14" fill="#FF6A00">▌</text>
+  <!-- Networking 82 -->
+  <text x="640" y="248" font-family="monospace" font-size="12" fill="#c9d1d9">Networking</text>
+  <text x="870" y="248" text-anchor="end" font-family="monospace" font-size="11" fill="#FFA500">82</text>
+  <rect x="640" y="255" width="230" height="10" rx="5" fill="#21262d"/>
+  <rect x="640" y="255" width="189" height="10" rx="5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;189" dur="1.4s" begin="0.6s" fill="freeze"/>
+  </rect>
+
+  <!-- Footer status -->
+  <text x="460" y="325" text-anchor="middle" font-family="monospace" font-size="13" fill="#8b949e">✓ skill matrix loaded</text>
+
+  <!-- Bottom decorative bar -->
+  <rect x="180" y="345" width="560" height="2" rx="1" fill="#FF6A00" opacity="0.3"/>
+  <circle cx="180" cy="346" r="3" fill="#FF6A00"/>
+  <circle cx="740" cy="346" r="3" fill="#FF6A00"/>
 </svg>
