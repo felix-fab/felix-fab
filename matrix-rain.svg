@@ -48,11 +48,25 @@
     </text>
   </g>
 
-  <!-- Blinking cursor -->
-  <text x="460" y="126" text-anchor="middle" font-family="monospace" font-size="14" fill="#FFB347">
-    ▌ _
-    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  <!-- Main header: Felix -->
+  <text x="460" y="78" text-anchor="middle" font-family="monospace" font-size="44" font-weight="bold" fill="#FF6A00">FELIX</text>
+  <text x="460" y="80" text-anchor="middle" font-family="monospace" font-size="44" font-weight="bold" fill="#FFB347" opacity="0">
+    <animate attributeName="opacity" values="0;0.25;0" dur="2s" repeatCount="indefinite"/>
   </text>
 
-  <text x="460" y="95" text-anchor="middle" font-family="monospace" font-size="34" fill="#FF6A00" font-weight="bold">💻 ⌨ HACK  ⚡ ⌨  CODE</text>
+  <!-- Role badges -->
+  <rect x="255" y="95" width="190" height="26" rx="13" fill="#161b22" stroke="#FF6A00" stroke-width="1.5"/>
+  <text x="350" y="113" text-anchor="middle" font-family="monospace" font-size="13" fill="#FFB347">🛠 Software Developer</text>
+
+  <rect x="475" y="95" width="190" height="26" rx="13" fill="#161b22" stroke="#FF6A00" stroke-width="1.5"/>
+  <text x="570" y="113" text-anchor="middle" font-family="monospace" font-size="13" fill="#FFB347">🔓 Penetration Tester</text>
+
+  <!-- Prompt line + blinking cursor -->
+  <text x="460" y="138" text-anchor="middle" font-family="monospace" font-size="13" fill="#8b949e">$ whoami</text>
+  <text x="460" y="138" text-anchor="middle" font-family="monospace" font-size="13" fill="#8b949e" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <text x="530" y="138" font-family="monospace" font-size="13" fill="#FF6A00">▌
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
 </svg>
