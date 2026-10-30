@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430">
+  <!-- Background -->
+  <rect width="920" height="430" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="460" y="45" text-anchor="middle" font-family="monospace" font-size="26" font-weight="bold" fill="#FF6A00">📊 SKILLS</text>
+
+  <!-- ============ DEV SKILLS (left column) ============ -->
+  <text x="70" y="85" font-family="monospace" font-size="18" font-weight="bold" fill="#FFB347">DEV</text>
+
+  <!-- Python 90% -->
+  <text x="70" y="120" font-family="monospace" font-size="14" fill="#c9d1d9">Python</text>
+  <rect x="70" y="130" width="380" height="18" rx="9" fill="#21262d"/>
+  <rect x="70" y="130" width="342" height="18" rx="9" fill="#FF6A00">
+    <animate attributeName="width" values="0;342" dur="1.6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="415" y="145" text-anchor="end" font-family="monospace" font-size="13" fill="#FF6A00">90%</text>
+
+  <!-- JavaScript/TypeScript 85% -->
+  <text x="70" y="175" font-family="monospace" font-size="14" fill="#c9d1d9">JavaScript / TypeScript</text>
+  <rect x="70" y="185" width="380" height="18" rx="9" fill="#21262d"/>
+  <rect x="70" y="185" width="323" height="18" rx="9" fill="#FF7A00">
+    <animate attributeName="width" values="0;323" dur="1.6s" begin="0.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="415" y="200" text-anchor="end" font-family="monospace" font-size="13" fill="#FF7A00">85%</text>
+
+  <!-- Node.js 80% -->
+  <text x="70" y="230" font-family="monospace" font-size="14" fill="#c9d1d9">Node.js</text>
+  <rect x="70" y="240" width="380" height="18" rx="9" fill="#21262d"/>
+  <rect x="70" y="240" width="304" height="18" rx="9" fill="#FF8C00">
+    <animate attributeName="width" values="0;304" dur="1.6s" begin="0.4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="415" y="255" text-anchor="end" font-family="monospace" font-size="13" fill="#FF8C00">80%</text>
+
+  <!-- Git/Docker 78% -->
+  <text x="70" y="285" font-family="monospace" font-size="14" fill="#c9d1d9">Git / Docker</text>
+  <rect x="70" y="295" width="380" height="18" rx="9" fill="#21262d"/>
+  <rect x="70" y="295" width="296" height="18" rx="9" fill="#FFA500">
+    <animate attributeName="width" values="0;296" dur="1.6s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="415" y="310" text-anchor="end" font-family="monospace" font-size="13" fill="#FFA500">78%</text>
+
+  <!-- ============ PENTESTING SKILLS (right column) ============ -->
+  <text x="520" y="85" font-family="monospace" font-size="18" font-weight="bold" fill="#FFB347">PENTESTING</text>
+
+  <!-- Kali Linux 95% -->
+  <text x="520" y="120" font-family="monospace" font-size="14" fill="#c9d1d9">Kali Linux</text>
+  <rect x="520" y="130" width="330" height="18" rx="9" fill="#21262d"/>
+  <rect x="520" y="130" width="314" height="18" rx="9" fill="#FF6A00">
+    <animate attributeName="width" values="0;314" dur="1.6s" begin="0.1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="815" y="145" text-anchor="end" font-family="monospace" font-size="13" fill="#FF6A00">95%</text>
+
+  <!-- Recon & Scanning 90% -->
+  <text x="520" y="175" font-family="monospace" font-size="14" fill="#c9d1d9">Recon &amp; Scanning</text>
+  <rect x="520" y="185" width="330" height="18" rx="9" fill="#21262d"/>
+  <rect x="520" y="185" width="297" height="18" rx="9" fill="#FF7A00">
+    <animate attributeName="width" values="0;297" dur="1.6s" begin="0.3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="815" y="200" text-anchor="end" font-family="monospace" font-size="13" fill="#FF7A00">90%</text>
+
+  <!-- Exploit Development 85% -->
+  <text x="520" y="230" font-family="monospace" font-size="14" fill="#c9d1d9">Exploit Development</text>
+  <rect x="520" y="240" width="330" height="18" rx="9" fill="#21262d"/>
+  <rect x="520" y="240" width="281" height="18" rx="9" fill="#FF8C00">
+    <animate attributeName="width" values="0;281" dur="1.6s" begin="0.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="815" y="255" text-anchor="end" font-family="monospace" font-size="13" fill="#FF8C00">85%</text>
+
+  <!-- Web Exploitation 80% -->
+  <text x="520" y="285" font-family="monospace" font-size="14" fill="#c9d1d9">Web Exploitation</text>
+  <rect x="520" y="295" width="330" height="18" rx="9" fill="#21262d"/>
+  <rect x="520" y="295" width="264" height="18" rx="9" fill="#FFA500">
+    <animate attributeName="width" values="0;264" dur="1.6s" begin="0.7s" repeatCount="indefinite"/>
+  </rect>
+  <text x="815" y="310" text-anchor="end" font-family="monospace" font-size="13" fill="#FFA500">80%</text>
+
+  <!-- Status line -->
+  <text x="460" y="390" text-anchor="middle" font-family="monospace" font-size="14" fill="#8b949e">▸ skills initialized ... all systems nominal</text>
+  <text x="920" y="390" font-family="monospace" font-size="14" fill="#FF6A00">▌
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </text>
+</svg>
