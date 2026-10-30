@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animierter Matrix-Regen (externes SVG, SMIL-Animation) -->
-<img src="./matrix-rain.svg?v=2" alt="Felix Matrix Banner" width="920" />
+<img src="./matrix-rain.svg?v=3" alt="Felix Matrix Banner" width="920" />
 
 <br/>
 
