@@ -9,26 +9,20 @@
 ## 🛠️ Software Developer &nbsp;·&nbsp; 🔓 Pentester
 
 <a href="https://github.com/felix-fab">
-  <img src="./matrix-rain.svg?v=5" alt="Matrix Animation" width="920" />
+  <img src="./matrix-rain.svg?v=6" alt="Matrix Animation" width="920" />
 </a>
 
-</div>
-
+<br/>
 <br/>
 
-<!-- ============================================================
-     ANIMATIONEN – Terminal & Code-Editor
-============================================================ -->
-<div align="center">
-
-<!-- Animiertes Hacking-Terminal -->
-<img src="./terminal.svg?v=4" alt="Hacking Terminal" width="760" />
+<!-- Zweiter Regen-Effekt: Binär-Regen -->
+<img src="./binary-rain.svg?v=1" alt="Binary Rain" width="920" />
 
 <br/>
 <br/>
 
-<!-- Animierter Code-Editor -->
-<img src="./code-editor.svg?v=4" alt="Code Editor" width="760" />
+<!-- Dritter Effekt: Neon-Glow-Wellen / Hex-Regen -->
+<img src="./hex-wave.svg?v=1" alt="Hex Wave" width="920" />
 
 </div>
 

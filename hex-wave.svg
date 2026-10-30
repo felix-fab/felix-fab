@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240">
+  <rect width="920" height="240" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="460" y="45" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#FF6A00">HEX STREAM</text>
+  <text x="460" y="65" text-anchor="middle" font-family="monospace" font-size="12" fill="#8b949e">▸ decrypting data stream ...</text>
+
+  <!-- Animated hex wave rows -->
+  <g font-family="monospace" font-size="18" fill="#FF6A00" opacity="0.9">
+    <!-- Row 1 - moving right -->
+    <text x="-50" y="100">4f 3c 9a 1e 77 22 b8 5d c0 41 8e 6a f3 19 04
+      <animate attributeName="x" values="-200;940" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <!-- Row 2 - moving left -->
+    <text x="940" y="130" fill="#FFB347">
+      a1 5e 0b d7 33 f0 8c 26 9b 74 2f e5 1a 6c 88
+      <animate attributeName="x" values="940;-200" dur="11s" repeatCount="indefinite"/>
+    </text>
+    <!-- Row 3 - moving right slower -->
+    <text x="-50" y="160" fill="#FF8C00">
+      c3 7e 12 90 4a b6 2d 77 f1 5c 08 e9 3b 64 a7
+      <animate attributeName="x" values="-200;940" dur="13s" repeatCount="indefinite"/>
+    </text>
+    <!-- Row 4 - moving left -->
+    <text x="940" y="190" fill="#FFB347" opacity="0.7">
+      5f 8a 31 d0 6e b9 24 c7 9d 0a 73 e2 1c 8b 55
+      <animate attributeName="x" values="940;-200" dur="10s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Decorative vertical lines -->
+  <line x1="150" y1="80" x2="150" y2="220" stroke="#FF6A00" stroke-width="1" opacity="0.15"/>
+  <line x1="310" y1="80" x2="310" y2="220" stroke="#FF6A00" stroke-width="1" opacity="0.15"/>
+  <line x1="460" y1="80" x2="460" y2="220" stroke="#FF6A00" stroke-width="1" opacity="0.15"/>
+  <line x1="610" y1="80" x2="610" y2="220" stroke="#FF6A00" stroke-width="1" opacity="0.15"/>
+  <line x1="770" y1="80" x2="770" y2="220" stroke="#FF6A00" stroke-width="1" opacity="0.15"/>
+</svg>
