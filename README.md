@@ -25,15 +25,3 @@
 <img src="./hex-wave.svg?v=1" alt="Hex Wave" width="920" />
 
 </div>
-
-<br/>
-
-<!-- ============================================================
-     SKILLS – animierte Skill-Bars
-============================================================ -->
-<div align="center">
-
-<!-- Animierte Skill-Bars (füllen sich einmal) -->
-<img src="./skills.svg?v=3" alt="Skills" width="920" />
-
-</div>
