@@ -48,9 +48,4 @@
     </text>
   </g>
 
-  <!-- Subtitle -->
-  <text x="460" y="95" text-anchor="middle" font-family="monospace" font-size="16" fill="#FFB347">// init... felix-fab@github</text>
-
-  <!-- Static cursor after -->
-  <text x="610" y="120" font-family="monospace" font-size="40" fill="#FFB347">▌</text>
 </svg>

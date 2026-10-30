@@ -10,7 +10,7 @@
 <br/>
 
 <!-- Erster Effekt: Matrix-Regen -->
-<img src="./matrix-rain.svg?v=6" alt="Matrix Animation" width="920" />
+<img src="./matrix-rain.svg?v=7" alt="Matrix Animation" width="920" />
 
 <br/>
 <br/>
