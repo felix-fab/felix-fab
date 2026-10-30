@@ -1,28 +1,45 @@
 <div align="center">
 
-<!-- Animierter Matrix-Regen (externes SVG, SMIL-Animation) -->
-<img src="./matrix-rain.svg?v=4" alt="Felix Matrix Banner" width="920" />
+<!-- ============================================================
+     HEADER – Name + Rollen + animiertes Matrix-Banner
+============================================================ -->
 
-<br/>
+# ✨ Felix
 
-<!-- Animiertes Terminal (externes SVG, SMIL-Animation) -->
-<img src="./terminal.svg?v=3" alt="Hacking Terminal" width="760" />
+## 🛠️ Software Developer &nbsp;·&nbsp; 🔓 Pentester
 
-<br/>
-
-<!-- Animierter Code-Editor (externes SVG, SMIL-Animation) -->
-<img src="./code-editor.svg?v=3" alt="Code Editor" width="760" />
+<a href="https://github.com/felix-fab">
+  <img src="./matrix-rain.svg?v=5" alt="Matrix Animation" width="920" />
+</a>
 
 </div>
 
 <br/>
 
 <!-- ============================================================
-     SKILLS – animierte Skill-Bars (SMIL-SVG)
+     ANIMATIONEN – Terminal & Code-Editor
 ============================================================ -->
 <div align="center">
 
-<!-- Animierte Skill-Bars (Fortschrittsbalken füllen sich einmal) -->
-<img src="./skills.svg?v=2" alt="Skills" width="920" />
+<!-- Animiertes Hacking-Terminal -->
+<img src="./terminal.svg?v=4" alt="Hacking Terminal" width="760" />
+
+<br/>
+<br/>
+
+<!-- Animierter Code-Editor -->
+<img src="./code-editor.svg?v=4" alt="Code Editor" width="760" />
+
+</div>
+
+<br/>
+
+<!-- ============================================================
+     SKILLS – animierte Skill-Bars
+============================================================ -->
+<div align="center">
+
+<!-- Animierte Skill-Bars (füllen sich einmal) -->
+<img src="./skills.svg?v=3" alt="Skills" width="920" />
 
 </div>

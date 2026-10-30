@@ -49,21 +49,8 @@
   </g>
 
   <!-- Subtitle -->
-  <text x="460" y="62" text-anchor="middle" font-family="monospace" font-size="15" fill="#FFB347">// software developer &amp; pentester</text>
+  <text x="460" y="95" text-anchor="middle" font-family="monospace" font-size="16" fill="#FFB347">// init... felix-fab@github</text>
 
-  <!-- Main header: Felix -->
-  <text x="460" y="120" text-anchor="middle" font-family="monospace" font-size="56" font-weight="bold" fill="#FF6A00">FELIX</text>
-
-  <!-- Decorative line under name -->
-  <line x1="330" y1="132" x2="590" y2="132" stroke="#FF6A00" stroke-width="2" opacity="0.6"/>
-
-  <!-- Role badges -->
-  <rect x="270" y="146" width="180" height="28" rx="14" fill="#161b22" stroke="#FF6A00" stroke-width="1.5"/>
-  <text x="360" y="165" text-anchor="middle" font-family="monospace" font-size="13" fill="#FFB347">🛠 Software Developer</text>
-
-  <rect x="470" y="146" width="180" height="28" rx="14" fill="#161b22" stroke="#FF6A00" stroke-width="1.5"/>
-  <text x="560" y="165" text-anchor="middle" font-family="monospace" font-size="13" fill="#FFB347">🔓 Pentester</text>
-
-  <!-- Static cursor after name -->
+  <!-- Static cursor after -->
   <text x="610" y="120" font-family="monospace" font-size="40" fill="#FFB347">▌</text>
 </svg>
